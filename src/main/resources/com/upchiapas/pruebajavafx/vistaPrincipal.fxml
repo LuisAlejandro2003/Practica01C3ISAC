@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.pruebajavafx.controllers.Menu">
+   <children>
+      <TextField fx:id="txt_numero" layoutX="63.0" layoutY="140.0" />
+      <Label fx:id="lbl_iniciarSesion" layoutX="90.0" layoutY="84.0" text="Escriba el numero" />
+      <Button fx:id="btn_guardarNumero" layoutX="38.0" layoutY="237.0" mnemonicParsing="false" onMouseClicked="#guardarNumeroClicked" text="Guardar numero" />
+      <Button fx:id="btn_sumar" layoutX="178.0" layoutY="238.0" mnemonicParsing="false" onMouseClicked="#hacerSumaClicked" text="Sumar" />
+      <Button fx:id="btn_salir" layoutX="122.0" layoutY="300.0" mnemonicParsing="false" text="Salir" />
+      <TextArea fx:id="txt_impresion" layoutX="105.0" layoutY="369.0" prefHeight="50.0" prefWidth="73.0" />
+   </children>
+</AnchorPane>
